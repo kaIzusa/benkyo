@@ -3,9 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>第一天</title>
 </head>
+<style>
+    img{
+        width: 25%;
+    }
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    /* .box1{
+        width: 100px;
+        position: absolute;
+        left: 50%;
+    } */
+    table{
+        border-collapse: collapse;
+    }
+    td{
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin: 10px;
+    }
+</style>
 <body>
-    
+    <img src="/img/img3.jpg" alt="图片无法显示时替换文本" title="提示文本img3">
+    <!-- target="_blank"保留原网页在进行跳转 -->
+    <a href="https://www.bilibili.com/" target="_blank">B站</a>
+    <a href="/md/first.md">我自己写的mark down</a>
+    <a href="#">空链接，不进行跳转</a>
+    <!-- controls 显示媒体的操作面板 -->
+    <audio src="/media/秋姐妹鸣泣之时 音频.mp3" controls></audio>
+    <video src="/media/秋姐妹鸣泣之时 视频.mp4" controls></video>
+    <div class="box1">
+        <table>
+            <tr>
+                <td>
+                    <p>b</p>
+                </td>
+                <td>
+                    <p><b>加粗</b></p>
+                </td>
+            </tr>
+            <tr>
+                <td><p>i</p></td>
+                <td><i>倾斜</i></td>
+            </tr>
+            <tr>
+                <td><p>u</p></td>
+                <td><u>下划线</u></td>
+            </tr>
+            <tr>
+                <td><p>s</p></td>
+                <td><s>删除线</s></td>
+            </tr>
+           </table>
+    </div>
 </body>
 </html>
