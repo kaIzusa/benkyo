@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<!-- 
+有序列表ol 无序列表ul 自定义列表dl
+表格 表单的处理
+ -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -38,6 +42,13 @@
         table{
             border-collapse: collapse;
             margin: 20px;
+        }
+        .box1{
+            width: 30%;
+            height: 380px;
+            border: 1px solid black;
+            padding: 10px;
+            float: left;
         }
     </style>
 </head>
@@ -107,7 +118,43 @@
     </div>
     <h2>表单</h2>
     <div class="box">
-
+        <div class="box1">
+            <form action="#">
+                <label for="textt">文本框:</label><input type="text" id="textt" placeholder="输入">
+                <br><br>
+                <label for="pas">密码框:</label><input type="password" id="pas" placeholder="输入密码">
+                <br><br>
+                单选框:
+                <input type="radio" name="gender" id="man"><label for="man">男</label>
+                <input type="radio" name="gender" id="woman"><label for="woman">女</label>
+                <!-- checked预选择 -->
+                <input type="radio" name="gender" checked id="himi"><label for="himi">保密</label>
+                <br><br>
+                多选框:<input type="checkbox" id="wuta"><label for="wuta">唱</label>
+                <input type="checkbox" id="odo"><label for="odo">唱</label>
+                <input type="checkbox" id="rap"><label for="rap">rap</label>
+                <input type="checkbox" id="boru"><label for="boru">篮球</label>
+                <br><br>
+                <!-- multiple选择多个文件 -->
+                <input type="file" multiple>
+                <br><br>
+                <label for="mati">城市:</label>
+                <select id="mati">
+                    <option>北京</option>
+                    <option>上海</option>
+                    <option>重庆</option>
+                    <option selected>天津</option>
+                    <option>武汉</option>
+                </select>
+                <br><br>
+                文本域:
+                <textarea placeholder="输入"></textarea>
+                <br><br>
+                <input type="button" value="点击">
+                <input type="reset" value="重置">
+                <input type="submit" value="提交">
+            </form>
+        </div>
     </div>
 </body>
 </html>
