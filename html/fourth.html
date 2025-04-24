@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- 伪类后代子代选择器，及其优先级
+ 复合选择器优先级:(行内>id个数>类个数>标签选择器个数) 
+ 背景属性更改
+ display转化块block，行inline，行内块inline-block-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第四天</title>
+</head>
+<link rel="stylesheet" href="/css/mydiv.css">
+<link rel="stylesheet" href="/css/a.css">
+<style>
+    *{
+        font:500 20px 楷体;
+    }
+    
+    span{
+        color: rgb(105, 0, 150);
+    }
+    /* 伪类选择器，hover鼠标悬停时改变 */
+    span:hover{
+        color: brown;
+    }
+    /* 后代选择器 选择所有后代*/
+    div span{
+        color: yellow;
+    }
+    /* 子代选择器 只选择儿子*/
+    div>span{
+        color: rgb(0, 120, 14);
+    }
+    .box {
+        /* height: 1500px; */
+        /* 背景不受边框填充影响padding: 50px; */
+        background-image: url("/img/img3.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        /* cover改变大小完全覆盖背景，contain改变大小使水平或垂直方向完全覆盖背景 */
+        background-size: contain;
+        /* 背景不随滚动而滚动 */
+        /* background-attachment: fixed; */
+    }
+</style>
+<body>
+    <span>君士坦丁堡(兄弟)</span>
+    <div>
+        <span>伊斯坦布尔(儿子)</span>
+        <p>
+            <span>神圣罗马帝国(孙子)</span>
+            <span>第三罗马帝国(孙子)</span>
+        </p>
+        <br>
+        <a href="#">otto</a>
+    </div>
+    <a href="#">otto</a>
+
+    <div class="box">
+    </div>
+</body>
+</html>
