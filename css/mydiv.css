@@ -4,4 +4,6 @@ div{
     border: 1px solid black;
     background-color: #ddd;
     margin: 3px;
+/* 自动换行 */
+    word-break: break-all;
 }
