@@ -15,6 +15,7 @@ body {
     padding: 10px;
     display: flex;
 }
+/* logo */
 .logo a{
     display: block;
     width: 195px;
@@ -24,4 +25,22 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     font-size: 0px;
+}
+/* nav */
+.nav {
+    margin-left: 100px;
+    padding-top: 25px;
+}
+.nav ul {
+    display: flex;
+}
+.nav li {
+    margin-right: 24px;
+}
+.nav li a {
+    font-size: 20px;
+    padding: 0 8px 8px 6px;
+}
+.nav li a:hover {
+    border-bottom: 2px solid #00a4ff;
 }
