@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+.beseimg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 li {
     list-style: none;
 }
