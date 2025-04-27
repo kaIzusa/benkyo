@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.beseimg {
+.baseimg {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -13,7 +13,7 @@ li {
     list-style: none;
 }
 body {
-    font: 14px/1.5 楷体;
+    font: 14px/1.5 Microsoft YaHei;
     color: #333;
 }
 a {

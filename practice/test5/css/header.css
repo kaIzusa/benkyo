@@ -1,0 +1,107 @@
+/* 首页样式 */
+body {
+    background-color: #f3f5f7;
+}
+/* 版心 */
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+    /* 头部样式 */
+.header {
+    height: 100px;
+    background-color: #fff;
+}
+.header .wrapper {
+    padding: 10px;
+    display: flex;
+}
+        /* logo */
+.logo a{
+    display: block;
+    width: 195px;
+    height: 80px;
+    background-image: url("/practice/test5/img/logo.jpg");
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 0px;
+    /* font-size: 40px;
+    line-height: 80px;
+    text-align: center; */
+}
+        /* nav */
+.nav {
+    margin-left: 40px;
+    padding-top: 25px;
+    font-family: 楷体;
+}
+.nav ul {
+    display: flex;
+}
+.nav li {
+    margin-right: 24px;
+}
+.nav li a {
+    font-size: 20px;
+    padding: 0 8px 6px 8px;
+}
+.nav li a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+        /* search */
+.search {
+    display: flex;
+    align-items: center;
+    width: 412px;
+    height: 40px;
+    border: 1px solid rgb(145, 145, 145);
+    border-radius: 20px;
+    background-color: #f3f5f7;
+    margin-top: 20px;
+    padding: 0 0 0 12px;
+}
+.search .text {
+    background-color: transparent;
+    border: none;
+    flex: 1;
+    height: 100%;
+    /* 去掉焦点框 */
+    outline: none;
+    font-size: 15px;
+    color: #6f6f6f;
+}
+.search .text::placeholder {
+    color: #999;
+
+}
+.search .sub {
+    width: 50px;
+    height: 100%;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background-color: #2fa2e0;
+    color: #e1e1e1;
+}
+        /* 用户 */
+.user a {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.user a div img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+.user p {
+    height: 60px;
+    margin-left: 12px;
+    line-height: 60px;
+    /* text-align: center; */
+    font-size: 19px;
+    overflow: hidden;
+}
