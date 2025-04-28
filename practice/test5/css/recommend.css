@@ -1,0 +1,33 @@
+.recommend {
+    display: flex;
+    margin-top: 11px;
+    padding: 0 20px;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0px 1px 2px 0px rgba(211, 211, 211, 0.5);
+    line-height: 60px;
+}
+.recommend h3 {
+    font-size: 18px;
+    color: #00a4ff;
+    font-weight: 400;
+}
+.recommend ul {
+    flex: 1;
+    display: flex;
+}
+.recommend ul li a {
+    padding: 0 24px;
+    border-right: 1px solid #e0e0e0;
+    font-size: 18px;
+}
+.recommend ul li:hover {
+    background-color: #e0e0e0;
+}
+.recommend ul li:last-child a {
+    border-right: 0;
+}
+.recommend .modify{
+    font-size: 16px;
+    color: #00a4ff;
+}

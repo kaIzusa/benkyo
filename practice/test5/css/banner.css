@@ -8,10 +8,10 @@
     display: flex;
     justify-content: space-between;
     height: 414px;
-    background-size: 200%;
+    /* background-size: 200%;
     background-repeat: no-repeat;
     background-position: 0 -450px;
-    background-image: url("/practice/test5/img/background.png");
+    background-image: url("/practice/test5/img/background.png"); */
 }
 
 /* left */

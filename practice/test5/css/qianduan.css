@@ -1,0 +1,32 @@
+/* hd */
+.hd ul {
+    display: flex;
+}
+.hd li {
+    margin-right: 60px;
+    font-size: 16px;
+}
+.hd li a:hover {
+    color: #00a4ff;
+}
+/* bd */
+.bd {
+    display: flex;
+    justify-content: space-between;
+}
+.bd .left {
+    width: 228px;
+    /* background-color: pink; */
+}
+.bd .left img {
+    width: 228px;
+}
+.bd .right {
+    width: 957px;
+    /* background-color: palegoldenrod; */
+}
+.bd .right .topimg {
+    margin-bottom: 10px;
+    display: block;
+    height: 96px;
+}

@@ -20,3 +20,10 @@ a {
     color: #333;
     text-decoration: none;
 }
+.pimg {
+    display: block;
+    height: 156px;
+    max-width: 228px;
+    margin: 0 auto;
+    /* width: 228px; */
+}
